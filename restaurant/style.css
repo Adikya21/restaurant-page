@@ -1,0 +1,706 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+header h1 span{
+    color:#0067ac;
+    margin: 2vh 0;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 62%;
+    margin-top: 2vh;
+}
+
+header .sub-menu{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+header .sub-menu img{
+    height: 1rem;
+    
+}
+header .sub-menu span{
+    margin-top: 2vh;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+/* section one */
+
+.padding2{
+    padding: 2rem;
+}
+.one{
+    width: 100%;
+}
+.one .left{
+    width: 100%;
+}
+.one .left h1{
+    color:rgb(83, 83, 83);
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+.one .left p{
+    color:rgb(83, 83, 83);
+    font-size: 1rem;
+}
+/* buttons style */
+.Button{
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    margin: 2rem 0;
+}
+.one .left button{
+    background:linear-gradient(to left, #0067ac, #0c0c0c);
+    border: none;
+    height: 2rem;
+    width: 9rem;
+    border-radius: 12px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding-left: 0.5rem;
+}
+.one .left .Button img{
+    height: 0.5rem;
+    padding-left: 1rem;
+}
+.one .left .feature{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 2vh 0;
+}
+.one .features .feature img{
+    height: 2rem;
+}
+.one .features .feature p{
+    font-size: 0.7rem;
+    margin-left: 1rem;
+}
+.one .right{
+    width: 100%;
+}
+.one .right .grounds{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+.one .right .grounds .foreground{
+    position: relative;
+    right: -30%;
+    top: 7%;
+}
+.one .right .grounds .foreground img{
+    width: 140px;
+    height: 210px;
+}
+.one .right .grounds .background{
+    left: -40%;
+    position: relative;
+    z-index: -1;
+}
+.one .right .grounds .background img{
+    width: 150px;
+    height: 200px;
+    
+}
+
+
+/* section two */
+.two{
+    width: 100%;
+}
+.two .left{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.two .left .foreground{
+    position: relative;
+}
+.two .left .foreground img{
+    height: 11rem;
+    width: 11rem;
+}
+.two .left .background{
+    position: relative;
+    left: -105%;
+    z-index: -1;
+}
+.two .left .background img{
+    height: 11rem;
+    width: 9rem;
+}
+.two .right{
+    width: 100%;
+}
+.two .right h3{
+    color:rgb(83, 83, 83);
+    font-size: 0.7rem;
+    text-align: justify;
+}
+.two .right p{
+    color:rgb(83, 83, 83);
+    line-height: 4vh;
+    font-size: 0.7rem;
+    width: 100%;
+    text-align: justify;
+}
+.two .right .Button{
+    width: 50%;
+    height: 2rem;
+    width: 9rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 14px;
+    color:aliceblue;
+    background:linear-gradient(to right, #0067ac,#0c0c0c);
+    display: flex;
+    align-items: center;
+}
+/* Section Three */
+.three{
+    text-align: center;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+.three h3,h5{
+    color:rgb(83, 83, 83);
+    width: 100%;
+    margin: 1.5rem 0;
+    
+}
+.three h3{
+    font-size: 1.2rem;
+    margin-bottom: 0rem;
+}
+.three h5{
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0rem;
+}
+.three .offers{
+    margin-top: 3rem;
+}
+.three .offers .offer{
+    height: 18vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.three .offers .offer img{
+    height: auto;
+    width: 2rem;
+}
+.three .offers .offer h6{
+    font-size: 0.3rem;
+    line-height: 1rem;
+}
+.three .offers .offer p{
+    font-size: 0.5rem;
+    line-height: 0.9rem;
+}
+/* Section four css */
+.four .foods .food img{
+    width: 70%;
+    height: auto;
+}
+.four h4,h3{
+    color:rgb(83, 83, 83);
+    text-align: center;
+}
+.four .foods .food{
+    border:1px solid black;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0;
+    padding: 0.8rem;
+    height: 90%;
+}
+.four h4{
+    font-size: 1rem;
+}
+.four h3{
+    font-size: 1rem;
+}
+.four .foods .food span{
+    color: red;
+    font-weight: bold;
+}
+.four .foods .food .price{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 4vh;
+}
+.four .foods .food button{
+    width:7rem;
+    height: 2rem;
+    font-size: 0.5rem;
+    background:linear-gradient(to right, #0067ac,#0c0c0c);
+    border: none;
+    border-radius: 13px;
+    color: #ffffff;
+    font-size: 0.7rem;
+    padding-left: 1rem;
+}
+.four .foods .food .price h4{
+    color:blue;
+    font-size: 1.5rem;
+}
+.four .foods .See-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    width: 50%;
+    background:linear-gradient(to right, #0067ac,#0c0c0c);
+    border: none;
+    color: #ffffff;
+    font-size: 0.7rem;
+    border-radius: 13px;
+}
+.four .menu{
+    font-size: 1.6rem;
+}
+.four .sub-menu{
+    font-size: 1.4rem;
+}
+.four .foods{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.four .foods .food:hover{
+    background-color: #51b1f1;
+}
+/* Section Five Footer css */
+footer .special-offers{
+    text-align: center;
+}
+footer .special-offers p{
+    text-align: justify;
+}
+footer .special-offers h4,p{
+    color:rgb(83, 83, 83);
+    line-height: 1.5rem;
+}
+footer .special-offers h4{
+    font-size: 1.6rem;
+}
+footer .special-offers p{
+    font-size: 0.9rem;
+    margin-top: 2rem;
+}
+footer .special-offers .input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer .special-offers .input input{
+    padding: 2vh;
+    margin-top: 2rem;
+    width: 80%;
+    border-radius: 3rem;
+    border: 1px solid #313232;
+
+}
+footer .special-offers .input .footer-button{
+    height: 3rem;
+    width: 50%;
+    background:linear-gradient(to right, #0067ac,#0c0c0c);
+    border: none;
+    color: #ffffff;
+    border-radius: 13px;
+    padding-left: 1rem;
+}
+footer  .detail-heading h2{
+    padding-top: 2rem;
+}
+footer .details{
+    background: linear-gradient( #bad7e9,#0067ac);
+    text-align: center;
+    height: 45vh;
+}
+footer .details .boxes{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+footer .details .detail img{
+    height: 2rem;
+}
+footer .details .detail ul{
+    list-style: none;
+}
+footer .details .detail h4{
+    color: white;
+}
+footer .details .detail{
+    margin: 2vh 0;
+}
+@media screen and (min-width:700px){
+    body{
+        margin-top: 2rem;
+    }
+    header .sub-menu{
+        display: flex;
+        flex-direction:row;
+    }
+    .one .left h1{
+        font-size: 1.6rem;
+    }
+    .one .left p{
+        width: 70%;
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+    .one .left button{
+        height: 2.5rem;
+        width: 9rem;
+        padding-left: 1rem;
+        font-size: 1rem;
+    }
+    .one .left button img{
+        height: 2rem;
+    }
+    .one .features{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 100%;
+    }
+    .one .right{
+        width: 100%;
+        display: grid;
+        grid-template-columns: none;
+    }
+    .one .right .grounds .foreground{
+        top:3%;
+    }
+    .one .right .grounds .foreground img{
+        height: 400px;
+        width: 400px;
+    }
+    .one .right .grounds .background{
+        left: -40%;
+    }
+    .one .right .grounds .background img{
+        width: 400px;
+        height: 400px;
+    }
+    .two .left .foreground{
+        left: 20%;
+        bottom: -5%;
+    }
+    .two .left .foreground img{
+        height: 22rem;
+        width: 21rem;
+    }
+    .two .left .background img{
+        height: 22rem;
+        width: 25rem;
+    }
+    .two .right h3{
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+    .two .right p{
+        font-size: 1rem;
+        line-height: 1.5rem;
+        padding-top: 0.5rem;
+    }
+    .two .right .Button{
+        height: 2.5rem;
+        width: 9rem;
+    }
+    .three{
+        background-image: url("./assents/2-plates.png");
+        background-size:100% 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .three .offers{
+        display: flex;
+        flex-direction: row-reverse;
+        height: 20rem;
+        margin-top: 0rem;
+    }
+    .three .offers .offer{
+        height:40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .three .offers .offer .offer1 h6{
+        font-size: 0.5rem;
+    }
+    .three .offers .offer .offer1 img{
+        height:3rem;
+        width: auto;
+    }
+    .three .offers .offer p{
+        font-size: 0.6rem;
+    }
+    .three .offers .offer .offer1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .four .foods{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 1rem;
+    }
+    .four .foods .food img{
+        height: 9rem;
+        width: 8rem;
+    }
+    footer .details .boxes{
+        grid-template-columns: repeat(4,1fr);
+    }
+    footer .details{
+        height: 55vh;
+    }
+    footer .special-offers .input .footer-button{
+        width: 30%;
+        padding-left: 3.5rem;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+}
+/* Laptops and other devices */
+@media screen and (min-width:1200px){
+    body{
+        margin-top: 2rem;
+    }
+    header{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 10vh;
+        align-items: center;
+        margin-left: 2rem;
+    }
+    header h1{
+        font-size: 3rem;
+        width: 25%;
+    }
+    header .sub-menu span img{
+        height: 1.5rem;
+    }
+    header .sub-menu{
+        width: 60%;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color:#313232;
+        justify-content: end;
+    }
+    header span{
+        width: 30%;
+    }
+    header ul{
+        width: 60%;
+    }
+    .one{
+        display: grid;
+        grid-template-columns: 40% 60%;
+        position: relative;
+        width: 100%;
+    }
+    .one .left h1{
+        font-size: 2.5rem;
+        width: 100%;
+        margin-bottom: 2.5rem;
+    }
+    .one .left p{
+        font-size: 1.5rem;
+        width: 100%;
+    }
+    .one .left .Button button{
+        margin-top: 2rem;
+        height: 5rem;
+        width: 13rem;
+        font-size: 1.5rem;
+        display: flex;
+        align-items: center;
+        border-radius: 1.5rem;
+    }
+    .one .left .Button img{
+        height: 1rem;
+    } 
+    .one .left .features{
+        position: relative;
+        display: flex;
+        width: 230%;
+        gap: 0rem;
+        margin-top: 8rem;
+    }
+    .one .left .features .feature{
+        padding-left: 2rem;
+    }
+    .one .left .features .feature img{
+        height: 4rem;
+    }
+    .one .left .features .feature p{
+        line-height: 1..4rem;
+        font-size: 1.3rem;
+    }
+    .one .right .grounds .foreground{
+        top:1%;
+        left: 10%;
+    }
+    .one .right .grounds .foreground img{
+        height: 550px;
+        width: 550px;
+    }
+    .one .right .grounds .background{
+        left: -80%;
+        top: -20%;
+    }
+    .one .right .grounds .background img{
+        width: 600px;
+        height: 700px;
+    }
+    .two{
+        display: flex;
+        width: 100%;
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+    }
+    .two .left{
+        width: 50%;
+    }
+    .two .left .foreground img{
+        height: 30rem;
+        width: 30rem;
+    }
+    .two .left .background img{
+        height: 30rem;
+        width: 30rem;
+    }
+    .two .right{
+        width: 50%;
+        padding-top: 8.5rem;
+    }
+    .two .right h3{
+        font-size: 1.5rem;
+    }
+    .two .right p{
+        font-size: 1.3rem;
+    }
+    .two .right .Button{
+        height: 4rem;
+        width: 10rem;
+        border-radius: 1.5rem;
+        font-size: 1.3rem;
+    }
+    .three{
+        background-size: 100% 100%;
+        height: 75vh;
+    }
+    .three h3{
+        font-size: 2rem;
+    }
+    .three h5{
+        font-size: 1.5rem;
+    }
+    .three .offers{
+        width: 60%;
+        margin:0 auto;
+        gap: 5rem;
+    }
+    .three .offers .offer .offer1 img{
+        height: 7rem;
+        width: 7rem;
+        margin-bottom: 1.5rem;
+    }
+    .three .offers .offer .offer1 h6{
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    .three .offers .offer p{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    .four .foods{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        margin-top: 2.5rem;
+    }
+    .four .foods .food{
+        height: 100%;
+        padding-top: 3rem;
+    }
+    .four .foods .See-button{
+        width: 11rem;
+        height: 4rem;
+        font-size: 1rem;
+    }
+    footer{
+        position: relative;
+        display: grid;
+        margin-top: 3rem;
+    }
+
+    footer .details{
+        height: 60vh;
+        display: grid;
+        grid-template-columns: 25% auto;
+        align-items: center;
+    }
+    footer .special-offers{
+        width: 75%;
+        margin: auto;
+        border: 1px solid #313232;
+        border-radius:50px;
+        position: relative;
+        top: 50%;
+        justify-self: center;
+        background-color: white;
+        background-image: url("./assents/2-plates.png");
+        background-size: 100% 100%;
+        margin-bottom: 4rem;
+    }
+    footer .special-offers .input{
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        
+    }
+    footer .special-offers .input input{
+        border: none;
+        width: 60%;
+        margin: auto;
+    }
+    footer .special-offers .input .footer-button{
+        width: 25%;
+    }
+}
